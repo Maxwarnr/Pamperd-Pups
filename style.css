@@ -20,9 +20,7 @@ header{
     text-align:center;
 }
 
-herader h2{
-  
-}
+
 
 aside {
   color:#0000b0;
@@ -83,7 +81,7 @@ nav li {
 
 nav a {
     text-decoration:none;
-    color:#ffffff;
+    color:#2E2E2E;
 }
 nav a:hover {
     text-shadow: 2px 2px 5px #3217ff;
@@ -91,8 +89,8 @@ nav a:hover {
 
 main {
     grid-area:main;
-    background:#4f8ca6;
-    color:#0000B0;
+    background:#89B0C8;
+    color:#030303;
     padding:5px;
     }
 
@@ -135,6 +133,7 @@ grid-area:section;
 }
 figure{
   margin:0;
+  padding:0;
   text-align:center;
 }
 figcation{
@@ -145,14 +144,14 @@ figcation{
 
 footer {
     grid-area:footer;
-    background:#7b8c88;
+    background:#92A09D;
     padding:5px;
     text-align:center;
     }
 
 footer p {
      font-size:1em;
-     color:#ffffff;
+     color:#000000;
      margin:0;
 }
 
@@ -222,7 +221,7 @@ input {
  }
 
 .homegrid img{
-  max-width:300px;
+  max-width:250px;
 }
 
 
@@ -231,7 +230,7 @@ input {
   display: grid;
   grid-template-columns:100%;
   grid-gap:.5em;
-  margin:1%;
+  margin:1em;
   grid-template-areas:
     "header"
     "nav"
@@ -289,6 +288,7 @@ grid-template-areas:
   .homegrid{
    display:grid;
   grid-template-columns:1fr;
+  margin:0;
   grid-gap:1em;
   grid-template-areas:
    "homeA"
@@ -472,7 +472,7 @@ grid-template-areas:
 display:grid;
 grid-template-columns:1fr 1fr;
 grid-template-areas:
-"div1 div2"
+"div1 div2";
 }
  
 
@@ -481,6 +481,7 @@ grid-template-areas:
    display:grid;
   grid-template-columns:32% 32% 32%;
   padding:5px;
+  margin:0;
   grid-gap:1em;
   grid-template-areas:
    "homeA homeA homeA"
