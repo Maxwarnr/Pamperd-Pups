@@ -100,7 +100,7 @@ main h2 {
 }
 
 main p {
-    color:white;
+    color:030303;
     padding:1% 2%;
     font-size:1em;
 }
@@ -223,8 +223,45 @@ input {
 .homegrid img{
   max-width:250px;
 }
-
-
+.aboutA{
+   grid-area:aboutA
+}
+.aboutB{
+   grid-area:aboutB
+}
+.stafffigB {
+   grid-area:stafffigB;
+ }
+.aboutC{
+   grid-area:aboutC
+}
+.stafffigC{
+   grid-area:stafffigC;
+ }
+.aboutD{
+   grid-area:aboutD
+}
+.StafffigD {
+   grid-area:StafffigD;
+ }
+.aboutE{
+   grid-area:aboutE
+}
+.staffA{
+   grid-area:staffA
+}
+.staffB{
+   grid-area:staffB
+}
+.staffC{
+   grid-area:staffC
+}
+.staffD{
+   grid-area:staffD
+}
+.staffE{
+   grid-area:staffE
+}
 /*---------------------------Mobile Layout----------------------------*/
 .container1 { /*for later*/
   display: grid;
@@ -487,5 +524,30 @@ grid-template-areas:
    "homeA homeA homeA"
    "homefigB homefigC homefigD"
    "homeB homeC homeD";
+ }
+ .aboutgrid{
+   display:grid;
+  grid-template-columns:49% 49%;
+  padding:10px;
+  margin:0;
+  grid-gap:1em;
+  grid-template-areas:
+  "aboutA aboutA"
+  "aboutB aboutB"
+  "aboutC aboutD"
+  "aboutE aboutE"
+ }
+ .staffgrid{
+   display:grid;
+  grid-template-columns:38% 60%;
+  padding:10px;
+  margin:0;
+  grid-gap:1em;
+  grid-template-areas:
+ "staffA staffA"
+ "stafffigB staffB"
+ "stafffigC staffC"
+ "stafffigD staffD"
+ "staffE staffE"
  }
  }
