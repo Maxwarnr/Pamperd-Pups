@@ -262,6 +262,44 @@ input {
 .staffE{
    grid-area:staffE
 }
+.shopA{
+   grid-area:shopA
+}
+.shopB{
+   grid-area:shopB
+}
+.shopC{
+   grid-area:shopC
+}
+.shopfigC{
+   grid-area:shopfigC;
+ }
+.shopD{
+   grid-area:shopD
+}
+.shopfigD {
+   grid-area:shopfigD;
+ }
+.shopE{
+   grid-area:shopE
+}
+ .shopfigE {
+   grid-area:shopfigE;
+ }
+    .shotA{
+   grid-area:shotA;
+ }
+ 
+ .shotB{
+    grid-area:shotB;
+ }
+ 
+ .shotC{
+    grid-area:shotC;
+ }
+   
+   
+   
 /*---------------------------Mobile Layout----------------------------*/
 .container1 { /*for later*/
   display: grid;
@@ -435,6 +473,9 @@ grid-template-areas:
    "homeD";
  }
 
+
+
+
 /* Below will change from hamburger menu to side navigation*/
   
 .toggleNav {
@@ -550,4 +591,24 @@ grid-template-areas:
  "stafffigD staffD"
  "staffE staffE"
  }
+ .shopgrid{
+   display:grid;
+  grid-template-columns:38% 60%;
+  padding:10px;
+  margin:0;
+  grid-gap:1em;
+  grid-template-areas:
+ "shopA shopA"
+ "shopB shopB"
+ "shopfigC shopC"
+ "shopfigD shopD"
+ "shopfigE shopE"
  }
+ .gallerywrapper {
+  display: grid;
+  justify-items:center;
+  grid-gap:.5em;
+  align-items:end;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+}
