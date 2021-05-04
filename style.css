@@ -297,7 +297,29 @@ input {
  .shotC{
     grid-area:shotC;
  }
+     .coupA{
+   grid-area:coupA;
+ }
+ 
+ .coupB{
+    grid-area:coupB;
+ }
+ 
+ .coupC{
+    grid-area:coupC;
+ }
    
+     .coupD{
+   grid-area:coupD;
+ }
+ 
+ .coupfigC{
+    grid-area:coupfigC;
+ }
+ 
+ .coupfigD{
+    grid-area:coupfigD;
+ }
    
    
 /*---------------------------Mobile Layout----------------------------*/
@@ -603,6 +625,18 @@ grid-template-areas:
  "shopfigC shopC"
  "shopfigD shopD"
  "shopfigE shopE"
+ }
+ .coupgrid{
+   display:grid;
+  grid-template-columns:38% 60%;
+  padding:10px;
+  margin:0;
+  grid-gap:1em;
+  grid-template-areas:
+  "coupA CoupA"
+  "coupB coupB"
+  "coupfigC coupC"
+  "coupfigD coupD"
  }
  .gallerywrapper {
   display: grid;
